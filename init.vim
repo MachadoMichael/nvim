@@ -5,7 +5,7 @@ set shiftwidth=4
 set number relativenumber
 
 syntax enable
-colorscheme desert
+colorscheme magic
 
 
 " Load plugins
