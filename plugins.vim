@@ -36,7 +36,6 @@ Plug 'preservim/nerdcommenter'
 " For Vimscript (init.vim)
 Plug 'golang/tools', { 'rtp': 'gopls/cmd/gopls' }
 
-
 call plug#end()
 
 

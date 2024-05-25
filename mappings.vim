@@ -34,6 +34,8 @@ vnoremap > >gv
 
 " Split screen vertically, open terminal, enter insert mode
 nnoremap <leader>l :vsplit<CR><C-w>l:term zsh<CR>i
+nnoremap <leader>v :vsplit<CR><C-w>l
+nnoremap <leader>h :split<CR>
 
 " Better window navigation
 nnoremap <C-h> <C-w>h
