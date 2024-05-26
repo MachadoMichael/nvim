@@ -53,11 +53,13 @@ nnoremap <leader>cc
 vmap <C-C> "+y
 
 " Substitute
-nnoremap <leader>s :s%///g<Left><Left>
+nnoremap <Leader>s :%s///g<Left><Left>
 nnoremap <leader>sc :s%///gc<Left><Left><Left>
 
 xnoremap <leader>s :s%///g<Left><Left>
 xnoremap <leader>sc :s%///gc<Left><Left><Left>
+
+nnoremap <Leader>r :%s///g<Left><Left>
 
 " Selecting a specfic word
 vnoremap <S-f> y/\V<C-R>=escape(@",'/\')<CR><CR>

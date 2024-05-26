@@ -10,3 +10,6 @@ source ~/.config/nvim/settings.vim
  "Load theme
 source ~/.config/nvim/colors/maxe.vim
 
+" Ale configs
+source ~/.config/nvim/plugins-config/ale.vim
+
