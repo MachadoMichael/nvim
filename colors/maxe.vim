@@ -13,7 +13,7 @@ colorscheme maxe
 set termguicolors
 
 " General colors
-hi Normal       guifg=#f0f0f0 guibg=#0c0c0c  " Darker background
+hi Normal       guifg=#f0f0f0 guibg=#0f0f0f  " Darker background
 hi NonText      guifg=#8b8b8b
 hi Cursor       guifg=#1c1b1b guibg=#d0d0d0
 hi LineNr       guifg=#6b6b6b guibg=#1c1b1b
