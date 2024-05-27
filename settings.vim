@@ -7,3 +7,6 @@ let g:go_def_mode='gopls'
 let g:go_info_mode='gopls'
 
 
+" Show hidden files in NERDTree
+let NERDTreeShowHidden=1
+

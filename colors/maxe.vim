@@ -13,8 +13,8 @@ colorscheme maxe
 set termguicolors
 
 " General colors
-hi Normal       guifg=#000000 guibg=#000000  " Darker background
-hi NonText      guifg=#1b1b1b
+hi Normal       guifg=#f0f0f0 guibg=#0c0c0c  " Darker background
+hi NonText      guifg=#8b8b8b
 hi Cursor       guifg=#1c1b1b guibg=#d0d0d0
 hi LineNr       guifg=#6b6b6b guibg=#1c1b1b
 hi VertSplit    guifg=#6b6b6b guibg=#1c1b1b
@@ -23,7 +23,6 @@ hi StatusLineNC guifg=#6b6b6b guibg=#1c1b1b
 hi SignColumn   guifg=#6b6b6b guibg=#1c1b1b
 
 " Syntax highlighting
-hi Normal       guifg=#d0d0d0 guibg=#1c1b1b
 hi Comment      guifg=#666666
 hi String       guifg=#400057  " Pastel dark purple
 hi Function     guifg=#ffffff " Pastel dark blue
