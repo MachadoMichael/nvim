@@ -46,20 +46,13 @@ nnoremap <C-l> <C-w>l
 " Find files with telescope
 nnoremap <leader>f :lua require('telescope.builtin').grep_string({seach = vim.fn.input("Grep For >")})<CR>
 
-" Coment a line
-nnoremap <leader>cc
-
 " CTRL + C now yank the selected
 vmap <C-C> "+y
 
 " Substitute
-nnoremap <Leader>s :%s///g<Left><Left>
-nnoremap <leader>sc :s%///gc<Left><Left><Left>
-
-xnoremap <leader>s :s%///g<Left><Left>
-xnoremap <leader>sc :s%///gc<Left><Left><Left>
-
-nnoremap <Leader>r :%s///g<Left><Left>
+" Map leader+s to substitute selected word with new value
+nnoremap <leader>s :%s//g<left><left>
+vnoremap <leader>s "hy:%s/<C-r>h//g<left><left>
 
 " Selecting a specfic word
 vnoremap <S-f> y/\V<C-R>=escape(@",'/\')<CR><CR>
