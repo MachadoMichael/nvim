@@ -60,3 +60,6 @@ vnoremap <S-f> y/\V<C-R>=escape(@",'/\')<CR><CR>
 " Completion
 inoremap <silent><expr> <C-space> compe#complete()
 inoremap <silent><expr> <C-e> compe#close('<C-e>')
+
+" Create a mapping to reload NERDTree
+nnoremap <leader><S-e> :NERDTreeRefreshRoot<CR>

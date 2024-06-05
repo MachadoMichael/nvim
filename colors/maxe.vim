@@ -25,8 +25,7 @@ hi SignColumn   guifg=#6b6b6b guibg=#1c1b1b
 " Syntax highlighting
 hi Comment      guifg=#666666
 hi String       guifg=#400057  " Pastel dark purple
-hi Function     guifg=#ffffff " Pastel dark blue
-hi Identifier   guifg=#89a3e0
+hi Function     guifg=#ffffff " Pastel dark blue hi Identifier   guifg=#89a3e0
 hi Type         guifg=#c52159 " guifg=#9d81ba
 hi Statement    guifg=#89a3e0
 hi Keyword      guifg=#89a3e0
@@ -47,8 +46,9 @@ hi CursorLineNr ctermfg=none guibg=#400057 "guibg=#d62976
 " Making sure the line number is visible on the purple background
 hi CursorLine   ctermfg=none guibg=#400057 " guibg=#d62976
 
+
 set cursorline
-set nocursorcolumn
+"set nocursorcolumn
 
 " Ensure CursorLine is applied consistently
 augroup vimrc_cursorline
