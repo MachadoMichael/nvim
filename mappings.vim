@@ -43,8 +43,12 @@ nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 
+" Find string with telescope
+nnoremap <leader>fs :lua require('telescope.builtin').grep_string({seach = vim.fn.input("Grep For >")})<CR><CR>
+
 " Find files with telescope
-nnoremap <leader>f :lua require('telescope.builtin').grep_string({seach = vim.fn.input("Grep For >")})<CR>
+nnoremap <leader>f :Telescope find_files<CR>
+
 
 " CTRL + C now yank the selected
 vmap <C-C> "+y

@@ -13,7 +13,6 @@ colorscheme maxe
 set termguicolors
 
 " General colors
-hi Normal       guifg=#f0f0f0 guibg=#0f0f0f  " Darker background
 hi NonText      guifg=#8b8b8b
 hi Cursor       guifg=#1c1b1b guibg=#d0d0d0
 hi LineNr       guifg=#6b6b6b guibg=#1c1b1b
@@ -24,18 +23,18 @@ hi SignColumn   guifg=#6b6b6b guibg=#1c1b1b
 
 " Syntax highlighting
 hi Comment      guifg=#666666
-hi String       guifg=#400057  " Pastel dark purple
+hi String       guifg=#935291  " Pastel dark purple
 hi Function     guifg=#ffffff " Pastel dark blue hi Identifier   guifg=#89a3e0
-hi Type         guifg=#c52159 " guifg=#9d81ba
+hi Type         guifg=#d1356a " guifg=#9d81ba
 hi Statement    guifg=#89a3e0
 hi Keyword      guifg=#89a3e0
 hi PreProc      guifg=#89a3e0
-hi Number       guifg=#400057
+hi Number       guifg=#935291
 
 " Specific to Go
-hi goDirective  guifg=#400057
-hi goDeclType   guifg=#400057
-hi goBuiltins   guifg=#400057
+hi goDirective  guifg=#935291
+hi goDeclType   guifg=#935291
+hi goBuiltins   guifg=#935291
 
 " Specific to Neovim
 hi NormalFloat  guifg=#d0d0d0 guibg=#1c1b1b
@@ -58,5 +57,17 @@ augroup vimrc_cursorline
 augroup END
 
 " Custom NERDTree colors
-hi NERDTreeDir guifg=#c52159 " Change to your preferred color for directories
-hi NERDTreeDirSlash guifg=#c52159 " Change to your preferred color for directory slashes
+hi NERDTreeDir guifg=#d1356a " Change to your preferred color for directories
+hi NERDTreeDirSlash guifg=#d1356a" Change to your preferred color for directory slashes
+
+
+
+
+
+
+
+
+
+" Saved colors
+" 400057 dark purple
+" c52159 red
