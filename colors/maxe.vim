@@ -2,7 +2,6 @@
 " Author: [Michael Machado]
 
 set background=dark
-set relativenumber
 hi clear
 if exists("syntax_on")
  syntax reset
