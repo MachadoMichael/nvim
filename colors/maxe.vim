@@ -7,6 +7,7 @@ if exists("syntax_on")
  syntax reset
 endif
 
+set number
 let g:colors_name = "maxe"
 colorscheme maxe
 set termguicolors
