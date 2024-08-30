@@ -64,10 +64,6 @@ hi NERDTreeDirSlash guifg=#d1356a" Change to your preferred color for directory 
 
 
 
-
-
-
-
 " Saved colors
 " 400057 dark purple
 " c52159 red

@@ -53,6 +53,10 @@ Plug 'RRethy/vim-hexokinase', { 'do': 'make hexokinase' }
 " Linter
 Plug 'dense-analysis/ale'
 
+
+" Autocomplete opensource Codeium
+Plug 'Exafunction/codeium.vim', { 'branch': 'main' }
+
 call plug#end()
 
 

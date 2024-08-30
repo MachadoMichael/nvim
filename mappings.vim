@@ -67,3 +67,6 @@ inoremap <silent><expr> <C-e> compe#close('<C-e>')
 
 " Create a mapping to reload NERDTree
 nnoremap <leader><S-e> :NERDTreeRefreshRoot<CR>
+
+" Mapping for Codeium
+nnoremap <leader>c :call codeium#Chat()<CR>
