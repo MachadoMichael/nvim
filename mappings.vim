@@ -70,3 +70,9 @@ nnoremap <leader><S-e> :NERDTreeRefreshRoot<CR>
 
 " Mapping for Codeium
 nnoremap <leader>c :call codeium#Chat()<CR>
+
+" Mapping for Terminal Navigation
+tnoremap <C-h> <C-\><C-n><C-w>h
+tnoremap <C-j> <C-\><C-n><C-w>j
+tnoremap <C-k> <C-\><C-n><C-w>k
+tnoremap <C-l> <C-\><C-n><C-w>l
