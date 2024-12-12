@@ -1,1 +1,1 @@
-Those are my own configuration in neovim.
+### Neovim configurations by Michael Machado 
