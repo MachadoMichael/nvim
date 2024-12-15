@@ -5,6 +5,11 @@ vim.opt.shiftwidth = 4            -- Number of spaces to use for each step of (a
 vim.opt.expandtab = true          -- Use spaces instead of tabs
 vim.opt.smartindent = true        -- Smart autoindenting when starting a new line
 
+-- Neovide Configurations
+vim.o.guifont = "JetBrainsMono Nerd Font:h12" -- Adjust font and size
+vim.g.neovide_font_features = { "liga" } -- Enable ligatures
+
+
 -- Encoding and Font
 vim.opt.encoding = 'UTF-8'
 vim.o.guifont = 'JetBrainsMono Nerd Font:h14'

@@ -73,3 +73,16 @@ end, opts)
 vim.keymap.set('n', '<leader>nf', function()
     print("Nerd Font Test: \u{e5fb}  \u{f013}  \u{e702}")
 end, { noremap = true, silent = true })
+
+-- Debug Adapter Protocol (DAP) keybindings
+keymap("n", "<leader>dc", ":DapContinue<CR>", opts)          -- Start/Continue Debugger
+keymap("n", "<F10>", ":DapStepOver<CR>", opts)         -- Step Over
+keymap("n", "<F11>", ":DapStepInto<CR>", opts)         -- Step Into
+keymap("n", "<F12>", ":DapStepOut<CR>", opts)          -- Step Out
+keymap("n", "<leader>db", ":DapToggleBreakpoint<CR>", opts) -- Toggle Breakpoint
+keymap("n", "<leader>dr", ":DapRestartFrame<CR>", opts)     -- Restart Debugger
+keymap("n", "<leader>dl", ":DapShowLog<CR>", opts)          -- Show Debug Logs
+keymap("n", "<leader>dt", function()
+  vim.g.dapui_toggle() -- Toggle DAP UI using the function from dap.lua
+end, opts)
+
