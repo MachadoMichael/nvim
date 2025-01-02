@@ -1,4 +1,4 @@
-    -- init.lua
+-- init.lua
 
 -- General options
 require("config.options")
