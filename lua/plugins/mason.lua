@@ -4,6 +4,7 @@
 return {
   {
     "williamboman/mason.nvim",
+    version = "v1.8.0",
     build = ":MasonUpdate", -- Automatically update registries
     config = function()
       require("mason").setup()
